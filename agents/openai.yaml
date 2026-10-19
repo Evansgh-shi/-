@@ -1,0 +1,4 @@
+interface:
+  display_name: "学成选择题"
+  short_description: "优先提取知识对应关系并从长讲义生成B型配伍题库"
+  default_prompt: "Use $xuecheng-choice-quiz to analyze my full uploaded document, prioritize disease-to-sign and disease-to-treatment relationships, and generate interactive single-choice, multiple-choice, or reusable-option B-type questions."
