@@ -1,4 +1,4 @@
 interface:
   display_name: "学成选择题"
-  short_description: "优先提取知识对应关系并从长讲义生成B型配伍题库"
-  default_prompt: "Use $xuecheng-choice-quiz to analyze my full uploaded document, prioritize disease-to-sign and disease-to-treatment relationships, and generate interactive single-choice, multiple-choice, or reusable-option B-type questions."
+  short_description: "从长讲义提取重点与鉴别关系，生成少提示、同类干扰的配伍题库"
+  default_prompt: "使用 $xuecheng-choice-quiz 复习上传讲义，优先覆盖红字、试题知识点和易混鉴别，以必要线索及同类干扰项出题；按题型分组打乱，并沿用我已选择的答案展示与网页交互方式。"
